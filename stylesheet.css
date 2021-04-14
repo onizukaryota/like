@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 .tabemono {
-   float:center;
+   text-align:center;
 }
 .container {
   width: 100%;
