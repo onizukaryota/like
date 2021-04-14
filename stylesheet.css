@@ -14,9 +14,12 @@ a {
 :center;
 }
 .container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+  width:25%;
+  height:25px;
+}
+.copy-container {
+  height:1px;
+  float:;
 }
 
 .top-wrapper {
