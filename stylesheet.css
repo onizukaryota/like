@@ -10,28 +10,22 @@ body {
 a {
   text-decoration: none;
 }
-.tabemono {
-:center;
 
-  
-.footer .foot_train img {
-    vertical-align: bottom;
-}
-img {
-    -webkit-touch-callout: none;
-}
-
-.copy-container {
-  height:1px;
-  float:center;
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .top-wrapper {
-  padding: 179px 0 99px 0;
+  padding: 180px 0 100px 0;
   background-image: url(top.png);
   background-size: cover;
-  color: white;
+  color: black;
   text-align: center;
+   height:500px;
+  background-image: url(28320BB4-ED26-480A-A17F-6E08CF6B3BB3.JPG);
+  background-size:cover;
 }
 
 .top-wrapper h1 {
@@ -55,7 +49,7 @@ img {
 }
 
 .signup {
-  background-color: #239b76;
+  background-color: #00FF00;
 }
 
 .facebook {
@@ -87,7 +81,7 @@ img {
 header {
   height: 65px;
   width: 100%;
-  background-color:white;
+  background-color: rgba(34,49,52,0.9);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -120,11 +114,6 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
-
-.lessons{
-  padding-top:150px;
-
-}
 .lesson-wrapper {
   height: 580px;
   padding-bottom: 80px;
@@ -145,11 +134,8 @@ header {
 }
 
 .lesson {
-  margin-top:150px;
   float: left;
   width: 25%;
-  paddimg-top:300px;
-  padding-bottom:50px;
 }
 
 .lesson-icon {
@@ -185,7 +171,7 @@ header {
   padding: 15px 40px;
   background-color: #5dca88;
   cursor: pointer;
-  box-shadow: 0px 7px #1a7940;
+  box-shadow: 0px 9px #1a7940;
 }
 
 .message:active {
