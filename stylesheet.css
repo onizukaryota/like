@@ -12,64 +12,15 @@ a {
 }
 .tabemono {
 :center;
+
+  
+.footer .foot_train img {
+    vertical-align: bottom;
 }
-@media only screen and (min-width: 767px)
-.footer ._train {
-    background-position: top center;
+img {
+    -webkit-touch-callout: none;
 }
-.footer ._train {
-    background: url(../img/common/foot_bg.svg) top left repeat-x;
-    height: 130px;
-    width: 100%;
-    content: "";
-    display: block;
-    position: absolute;
-    top: -130px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-user agent stylesheet
-div {
-    display: block;
-}
-.footer {
-    background: rgba(252, 221, 182, 0.5);
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    position: relative;
-    margin-top: 130px;
-    overflow: hidden-x;
-}
-body {
-    margin: 0;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    overflow-x: hidden;
-    position: relative;
-}
-@media only screen and (min-width: 767px)
-html {
-    font-size: 18px;
-    line-height: 1.8;
-}
-html {
-    background-color: #fff;
-    box-sizing: border-box;
-    color: #333333;
-    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, helvetica, arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.8;
-    min-width: 320px;
-}
-html {
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-.container {
-  width:25%;
-  height:25px;
-}
+
 .copy-container {
   height:1px;
   float:center;
