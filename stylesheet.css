@@ -13,6 +13,18 @@ a {
 .tabemono {
 :center;
 }
+.footer ._train {
+    background: url(../img/common/foot_bg.svg) top left repeat-x;
+    height: 130px;
+    width: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -130px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  
 .container {
   width:25%;
   height:25px;
