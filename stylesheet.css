@@ -10,7 +10,22 @@ body {
 a {
   text-decoration: none;
 }
-
+@media only screen and (min-width: 767px)
+.footer ._train {
+    background-position: top center;
+}
+.footer ._train {
+    background: url(../img/common/foot_bg.svg) top left repeat-x;
+    height: 130px;
+    width: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -130px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
 .container {
   width: 100%;
   padding: 0 15px;
