@@ -26,6 +26,32 @@ a {
     right: 0;
     margin: auto;
 }
+element.style {
+}
+.footer .foot_train img {
+    vertical-align: bottom;
+}
+img {
+    -webkit-touch-callout: none;
+}
+img, picture {
+    max-width: 100%;
+    vertical-align: middle;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, table, pre, figure, img, blockquote {
+    margin: 0;
+}
+img {
+    border-style: none;
+}
+.footer .foot_train {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    animation: footTrainMove 6s ease-in-out alternate infinite;
+}
 .container {
   width: 100%;
   padding: 0 15px;
